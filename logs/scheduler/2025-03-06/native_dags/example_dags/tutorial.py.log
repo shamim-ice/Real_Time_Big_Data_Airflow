@@ -1,0 +1,22 @@
+[2025-03-06T22:02:05.282+0600] {processor.py:186} INFO - Started process (PID=14639) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-06T22:02:05.283+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-06T22:02:05.288+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.287+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-06T22:02:05.302+0600] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-06T22:02:05.447+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.446+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-03-06T22:02:05.459+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.458+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-03-06T22:02:05.466+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.466+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-03-06T22:02:05.477+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.476+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-03-06T22:02:05.484+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.484+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-03-06T22:02:05.492+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.492+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-03-06T22:02:05.500+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.499+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-03-06T22:02:05.500+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.500+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:05.515+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.515+0600] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-03-06T22:02:05.525+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:05.525+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T22:02:05.549+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.276 seconds
+[2025-03-06T22:03:16.358+0600] {processor.py:186} INFO - Started process (PID=14892) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-06T22:03:16.364+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-06T22:03:16.367+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:16.367+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-06T22:03:16.377+0600] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-06T22:03:16.395+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:16.394+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:03:16.418+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:16.418+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T22:03:16.452+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.101 seconds

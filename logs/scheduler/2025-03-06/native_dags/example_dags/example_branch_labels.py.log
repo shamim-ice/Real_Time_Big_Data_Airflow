@@ -1,0 +1,15 @@
+[2025-03-06T22:02:56.767+0600] {processor.py:186} INFO - Started process (PID=14849) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-03-06T22:02:56.768+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-03-06T22:02:56.771+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.771+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-03-06T22:02:56.783+0600] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-03-06T22:02:56.911+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.910+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2025-03-06T22:02:56.922+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.921+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2025-03-06T22:02:56.930+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.929+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2025-03-06T22:02:56.940+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.939+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2025-03-06T22:02:56.947+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.947+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2025-03-06T22:02:56.954+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.954+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2025-03-06T22:02:56.962+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.962+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2025-03-06T22:02:56.962+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.962+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:56.976+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.976+0600] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2025-03-06T22:02:56.988+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:56.988+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T22:02:57.009+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.251 seconds

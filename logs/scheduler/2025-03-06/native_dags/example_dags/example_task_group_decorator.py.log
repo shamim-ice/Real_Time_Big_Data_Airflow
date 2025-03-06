@@ -1,0 +1,22 @@
+[2025-03-06T22:02:07.690+0600] {processor.py:186} INFO - Started process (PID=14645) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-03-06T22:02:07.691+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-03-06T22:02:07.695+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.694+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-03-06T22:02:07.716+0600] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-03-06T22:02:07.855+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.854+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2025-03-06T22:02:07.867+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.866+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2025-03-06T22:02:07.874+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.874+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2025-03-06T22:02:07.892+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.891+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_task_group_decorator
+[2025-03-06T22:02:07.900+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.899+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_task_group_decorator
+[2025-03-06T22:02:07.907+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.907+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_task_group_decorator
+[2025-03-06T22:02:07.915+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.915+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_task_group_decorator
+[2025-03-06T22:02:07.915+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.915+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:07.929+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.929+0600] {dag.py:3262} INFO - Creating ORM DAG for example_task_group_decorator
+[2025-03-06T22:02:07.930+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:07.930+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-03-06T22:02:07.953+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.273 seconds
+[2025-03-06T22:03:18.826+0600] {processor.py:186} INFO - Started process (PID=14895) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-03-06T22:03:18.832+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-03-06T22:03:18.835+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:18.834+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-03-06T22:03:18.856+0600] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-03-06T22:03:18.883+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:18.882+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:03:18.900+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:18.900+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-03-06T22:03:18.940+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.122 seconds

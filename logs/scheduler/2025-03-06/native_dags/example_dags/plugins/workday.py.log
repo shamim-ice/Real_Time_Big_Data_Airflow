@@ -1,0 +1,12 @@
+[2025-03-06T22:01:48.566+0600] {processor.py:186} INFO - Started process (PID=14598) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-06T22:01:48.566+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-06T22:01:48.569+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:48.568+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-06T22:01:48.572+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:48.572+0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-03-06T22:01:48.573+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-06T22:01:48.585+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2025-03-06T22:03:04.067+0600] {processor.py:186} INFO - Started process (PID=14875) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-06T22:03:04.074+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-06T22:03:04.080+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:04.079+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-06T22:03:04.090+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:04.089+0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-03-06T22:03:04.091+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-06T22:03:04.107+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.047 seconds

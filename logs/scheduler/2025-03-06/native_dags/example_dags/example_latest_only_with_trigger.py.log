@@ -1,0 +1,15 @@
+[2025-03-06T22:02:30.609+0600] {processor.py:186} INFO - Started process (PID=14700) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-03-06T22:02:30.610+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-03-06T22:02:30.612+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.612+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-03-06T22:02:30.622+0600] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-03-06T22:02:30.756+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.755+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-03-06T22:02:30.768+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.768+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-03-06T22:02:30.779+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.779+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-03-06T22:02:30.794+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.793+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:latest_only_with_trigger
+[2025-03-06T22:02:30.804+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.804+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:latest_only_with_trigger
+[2025-03-06T22:02:30.814+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.813+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:latest_only_with_trigger
+[2025-03-06T22:02:30.822+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.821+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:latest_only_with_trigger
+[2025-03-06T22:02:30.822+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.822+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:30.836+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.836+0600] {dag.py:3262} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-03-06T22:02:30.847+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:30.847+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-03-06 12:00:00+00:00, run_after=2025-03-06 16:00:00+00:00
+[2025-03-06T22:02:30.870+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.268 seconds

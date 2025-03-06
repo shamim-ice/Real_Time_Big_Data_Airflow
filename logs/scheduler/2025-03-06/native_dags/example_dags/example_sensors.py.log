@@ -1,0 +1,15 @@
+[2025-03-06T22:02:22.604+0600] {processor.py:186} INFO - Started process (PID=14679) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-06T22:02:22.605+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-06T22:02:22.607+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.606+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-06T22:02:22.620+0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-06T22:02:22.759+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.758+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-03-06T22:02:22.772+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.772+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-03-06T22:02:22.781+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.780+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-03-06T22:02:22.793+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.792+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-03-06T22:02:22.800+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.800+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-03-06T22:02:22.807+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.807+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-03-06T22:02:22.815+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.815+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-03-06T22:02:22.816+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.816+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:22.832+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.832+0600] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-03-06T22:02:22.833+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:22.833+0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-06T22:02:22.855+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.258 seconds

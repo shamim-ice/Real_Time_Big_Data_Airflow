@@ -1,0 +1,22 @@
+[2025-03-06T22:02:00.056+0600] {processor.py:186} INFO - Started process (PID=14624) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-03-06T22:02:00.057+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-03-06T22:02:00.060+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.059+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-03-06T22:02:00.070+0600] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-03-06T22:02:00.198+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.197+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_workday_timetable
+[2025-03-06T22:02:00.209+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.209+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_workday_timetable
+[2025-03-06T22:02:00.217+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.216+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_workday_timetable
+[2025-03-06T22:02:00.226+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.226+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_workday_timetable
+[2025-03-06T22:02:00.234+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.233+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_workday_timetable
+[2025-03-06T22:02:00.241+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.241+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_workday_timetable
+[2025-03-06T22:02:00.249+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.249+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_workday_timetable
+[2025-03-06T22:02:00.250+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.250+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:00.265+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.264+0600] {dag.py:3262} INFO - Creating ORM DAG for example_workday_timetable
+[2025-03-06T22:02:00.275+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:00.275+0600] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-03-06T22:02:00.299+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py took 0.250 seconds
+[2025-03-06T22:03:13.640+0600] {processor.py:186} INFO - Started process (PID=14887) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-03-06T22:03:13.656+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-03-06T22:03:13.658+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:13.658+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-03-06T22:03:13.665+0600] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-03-06T22:03:13.682+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:13.682+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:03:13.710+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:13.710+0600] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-03-06T22:03:13.732+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py took 0.098 seconds

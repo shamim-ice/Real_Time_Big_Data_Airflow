@@ -1,0 +1,22 @@
+[2025-03-06T22:01:55.953+0600] {processor.py:186} INFO - Started process (PID=14610) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-06T22:01:55.954+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-06T22:01:55.956+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:55.956+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-06T22:01:55.968+0600] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-06T22:01:56.106+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.105+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2025-03-06T22:01:56.118+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.117+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2025-03-06T22:01:56.125+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.125+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2025-03-06T22:01:56.135+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.135+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_objectstorage
+[2025-03-06T22:01:56.144+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.144+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_objectstorage
+[2025-03-06T22:01:56.152+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.152+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_objectstorage
+[2025-03-06T22:01:56.159+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.159+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_objectstorage
+[2025-03-06T22:01:56.160+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.160+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:01:56.174+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.173+0600] {dag.py:3262} INFO - Creating ORM DAG for tutorial_objectstorage
+[2025-03-06T22:01:56.174+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:56.174+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-06T22:01:56.197+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.251 seconds
+[2025-03-06T22:03:10.570+0600] {processor.py:186} INFO - Started process (PID=14883) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-06T22:03:10.585+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-06T22:03:10.588+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:10.587+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-06T22:03:10.599+0600] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-06T22:03:10.616+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:10.616+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:03:10.631+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:10.631+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-06T22:03:10.653+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.090 seconds

@@ -1,0 +1,22 @@
+[2025-03-06T22:01:57.290+0600] {processor.py:186} INFO - Started process (PID=14620) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-06T22:01:57.291+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-03-06T22:01:57.294+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.293+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-06T22:01:57.312+0600] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-06T22:01:57.445+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.444+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_templates
+[2025-03-06T22:01:57.456+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.456+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_taskflow_templates
+[2025-03-06T22:01:57.464+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.464+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_templates
+[2025-03-06T22:01:57.476+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.475+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_templates
+[2025-03-06T22:01:57.484+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.484+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_templates
+[2025-03-06T22:01:57.493+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.492+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_templates
+[2025-03-06T22:01:57.501+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.501+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_templates
+[2025-03-06T22:01:57.502+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.502+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:01:57.515+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.515+0600] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_templates
+[2025-03-06T22:01:57.526+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:01:57.526+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T22:01:57.549+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.266 seconds
+[2025-03-06T22:03:11.035+0600] {processor.py:186} INFO - Started process (PID=14884) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-06T22:03:11.051+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-03-06T22:03:11.054+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:11.053+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-06T22:03:11.077+0600] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-06T22:03:11.103+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:11.103+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:03:11.134+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:03:11.134+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T22:03:11.163+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.137 seconds

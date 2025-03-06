@@ -1,0 +1,15 @@
+[2025-03-06T22:02:27.956+0600] {processor.py:186} INFO - Started process (PID=14688) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-03-06T22:02:27.957+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-03-06T22:02:27.960+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:27.959+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-03-06T22:02:27.978+0600] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-03-06T22:02:28.106+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.106+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_passing_params_via_test_command
+[2025-03-06T22:02:28.118+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.117+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_passing_params_via_test_command
+[2025-03-06T22:02:28.127+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.127+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_passing_params_via_test_command
+[2025-03-06T22:02:28.137+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.137+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_passing_params_via_test_command
+[2025-03-06T22:02:28.147+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.147+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_passing_params_via_test_command
+[2025-03-06T22:02:28.158+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.157+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_passing_params_via_test_command
+[2025-03-06T22:02:28.168+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.168+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_passing_params_via_test_command
+[2025-03-06T22:02:28.169+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.169+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:28.187+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.187+0600] {dag.py:3262} INFO - Creating ORM DAG for example_passing_params_via_test_command
+[2025-03-06T22:02:28.205+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:28.205+0600] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2025-03-06 16:01:00+00:00, run_after=2025-03-06 16:02:00+00:00
+[2025-03-06T22:02:28.244+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.298 seconds

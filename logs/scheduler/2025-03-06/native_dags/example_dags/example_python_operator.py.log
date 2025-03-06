@@ -1,0 +1,16 @@
+[2025-03-06T22:02:19.834+0600] {processor.py:186} INFO - Started process (PID=14675) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-03-06T22:02:19.835+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-03-06T22:02:19.837+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:19.837+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-03-06T22:02:19.846+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:19.846+0600] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-03-06T22:02:19.849+0600] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-03-06T22:02:19.978+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:19.977+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2025-03-06T22:02:19.990+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:19.989+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_operator
+[2025-03-06T22:02:19.998+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:19.998+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2025-03-06T22:02:20.008+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.008+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2025-03-06T22:02:20.016+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.015+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2025-03-06T22:02:20.023+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.023+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2025-03-06T22:02:20.031+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.031+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2025-03-06T22:02:20.031+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.031+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:20.047+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.046+0600] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2025-03-06T22:02:20.047+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:20.047+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-03-06T22:02:20.068+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.241 seconds

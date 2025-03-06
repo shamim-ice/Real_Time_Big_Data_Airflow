@@ -1,0 +1,15 @@
+[2025-03-06T22:02:23.839+0600] {processor.py:186} INFO - Started process (PID=14681) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-03-06T22:02:23.840+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-03-06T22:02:23.842+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:23.841+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-03-06T22:02:23.852+0600] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-03-06T22:02:23.980+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:23.979+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-03-06T22:02:23.992+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:23.991+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-03-06T22:02:23.999+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:23.999+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-03-06T22:02:24.009+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.009+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2025-03-06T22:02:24.016+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.015+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2025-03-06T22:02:24.023+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.023+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2025-03-06T22:02:24.030+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.030+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2025-03-06T22:02:24.031+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.031+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-06T22:02:24.045+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.045+0600] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2025-03-06T22:02:24.046+0600] {logging_mixin.py:190} INFO - [2025-03-06T22:02:24.046+0600] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-03-06T22:02:24.065+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.233 seconds
