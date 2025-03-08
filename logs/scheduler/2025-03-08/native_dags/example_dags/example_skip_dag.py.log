@@ -1,0 +1,63 @@
+[2025-03-08T21:09:21.500+0600] {processor.py:186} INFO - Started process (PID=26719) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:09:21.502+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:09:21.505+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:09:21.505+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:09:21.519+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:09:21.546+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:09:21.546+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:09:21.576+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:09:21.576+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:09:21.607+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.127 seconds
+[2025-03-08T21:11:45.849+0600] {processor.py:186} INFO - Started process (PID=27403) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:11:45.852+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:11:45.856+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:11:45.855+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:11:45.867+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:11:45.893+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:11:45.892+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:11:45.926+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:11:45.925+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:11:45.952+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.111 seconds
+[2025-03-08T21:13:02.271+0600] {processor.py:186} INFO - Started process (PID=27822) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:13:02.277+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:13:02.281+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:13:02.280+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:13:02.294+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:13:02.316+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:13:02.316+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:13:02.341+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:13:02.341+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:13:02.370+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.109 seconds
+[2025-03-08T21:14:34.590+0600] {processor.py:186} INFO - Started process (PID=28406) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:14:34.597+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:14:34.599+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:14:34.599+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:14:34.609+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:14:34.632+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:14:34.632+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:14:34.657+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:14:34.657+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:14:34.687+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.103 seconds
+[2025-03-08T21:17:18.585+0600] {processor.py:186} INFO - Started process (PID=29783) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:17:18.600+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:17:18.603+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:17:18.602+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:17:18.618+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:17:18.650+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:17:18.650+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:17:18.680+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:17:18.680+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:17:18.714+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.139 seconds
+[2025-03-08T21:18:51.744+0600] {processor.py:186} INFO - Started process (PID=30338) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:18:51.748+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:18:51.751+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:18:51.750+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:18:51.761+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:18:51.784+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:18:51.783+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:18:51.810+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:18:51.809+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:18:51.834+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.098 seconds
+[2025-03-08T21:20:11.415+0600] {processor.py:186} INFO - Started process (PID=30888) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:20:11.422+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:20:11.424+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:20:11.423+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:20:11.434+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:20:11.455+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:20:11.454+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:20:11.480+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:20:11.480+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:20:11.504+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.097 seconds
+[2025-03-08T21:21:31.253+0600] {processor.py:186} INFO - Started process (PID=31446) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:21:31.260+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:21:31.266+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:21:31.265+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:21:31.282+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:21:31.305+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:21:31.305+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:21:31.334+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:21:31.333+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:21:31.364+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.126 seconds
+[2025-03-08T21:23:02.727+0600] {processor.py:186} INFO - Started process (PID=31979) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:23:02.752+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-03-08T21:23:02.754+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:23:02.754+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:23:02.766+0600] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-03-08T21:23:02.802+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:23:02.801+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T21:23:02.826+0600] {logging_mixin.py:190} INFO - [2025-03-08T21:23:02.826+0600] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-03-07 00:00:00+00:00, run_after=2025-03-08 00:00:00+00:00
+[2025-03-08T21:23:02.849+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.131 seconds

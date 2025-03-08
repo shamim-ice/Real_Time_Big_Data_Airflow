@@ -39,25 +39,4 @@ query = parsed_df.writeStream.outputMode('append')\
 
 query.awaitTermination()
 
-#Establish connection to postgreSQL database
-conn = psycopg2.connect(
-    database='airflow_db', # databse name
-    user='postgres',      #databse user
-    password='1418',   #password
-    host='localhost',
-    port='5432'
-)
-
-cur = conn.cursor()
-
-# Kafka Consumer
-consumer = KafkaConsumer('sensor_data', bootstrap_servers='localhost:9092')
-
-for msg in parsed_df:
-    data = json.loads(msg.value)
-    cur.execute("INSERT INTO temperature_info (id, date, temperature, humidity) \
-                VALUES (%s, %s, %s, %s)", \
-                    (data['id'], data['date'], data['temperature'], data['humidity']))
-    conn.commit()
-
-#spark.stop()
+spark.stop()

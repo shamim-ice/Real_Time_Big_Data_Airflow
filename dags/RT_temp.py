@@ -13,11 +13,14 @@ from pyspark.sql.types import StructType, StructField, StringType, DoubleType
 spark=SparkSession.builder.appName('RTKafkaSpark')\
     .config('spark.sql.streaming.schemaInference','true')\
     .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0")\
+    .config('spark.driver.extraClassPath', '/home/shamim/spark/jars/postgresql-42.3.8.jar')\
+    .config('spark.executor.extraClassPath', '/home/shamim/spark/jars/postgresql-42.3.8.jar')\
     .getOrCreate()
+
 #defin dag
 dag=DAG(
     dag_id='real_time_e2e_dag',
-    start_date=datetime(2025,2,10),
+    start_date=datetime(2025,3,5),
     schedule_interval='0 23 * * *'        #runs every day morning at 05:00 am
 )
 
@@ -29,25 +32,8 @@ def extract_data(**kwargs):
     .option('subscribe', 'sensor_data')\
     .option('startingOffsets', 'latest')\
     .load()
-
-    schema = StructType([
-        StructField("id", StringType(), True),
-        StructField("date", StringType(), True),
-        StructField("temperature", DoubleType(), True),
-        StructField("humidity", DoubleType(), True)
-    ])
     
-    parsed_df = df.selectExpr('CAST(value AS STRING)')\
-            .select(from_json(col("value"), schema).alias("data")) \
-            .select("data.*")
-    
-    query = parsed_df.writeStream.outputMode('append')\
-        .format('console')\
-        .start()
-    
-    query.awaitTermination()
     kwargs['ti'].xcom_push(key='DataFrame', value=df)
-    spark.stop()
     
 
 
@@ -66,9 +52,9 @@ task_create_table=SQLExecuteQueryOperator(
     task_id='create_table_task',
     conn_id='postgres',
     sql="""
-    DROP TABLE IF EXISTS temperature_details CASE;
+    DROP TABLE IF EXISTS temperature_details CASCADE;
     CREATE TABLE IF NOT EXISTS temperature(
-    id VARCHAR(10) PRIMARY KEY,
+    id VARCHAR(10),
     date VARCHAR(100),
     temperature NUMERIC(10,2),
     humidity NUMERIC(10,2)

@@ -1,10 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import expr, col, from_json
 from pyspark.sql.types import StringType, DoubleType, StructType, StructField
-import pandas as pd
-import psycopg2
-import json
-from kafka import KafkaConsumer
 
 
 spark=SparkSession.builder.appName('rtKafkaSpark')\
@@ -15,7 +11,6 @@ spark=SparkSession.builder.appName('rtKafkaSpark')\
     .getOrCreate()
 
 
-#print(spark.sparkContext.getConf().get("spark.jars"))
 
 # Read stream from Kafka
 df = spark.readStream.format('kafka')\
