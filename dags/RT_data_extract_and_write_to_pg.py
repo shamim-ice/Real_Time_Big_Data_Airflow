@@ -77,7 +77,6 @@ task_create_table=SQLExecuteQueryOperator(
     task_id='create_table_task',
     conn_id='postgres',
     sql="""
-    DROP TABLE IF EXISTS temperature_details CASCADE;
     CREATE TABLE IF NOT EXISTS temperature_details(
     id INT,
     date VARCHAR(100),

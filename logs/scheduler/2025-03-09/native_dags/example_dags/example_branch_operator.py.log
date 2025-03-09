@@ -173,3 +173,13 @@
 [2025-03-10T00:29:10.024+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:29:10.024+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
 [2025-03-10T00:29:10.028+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
 [2025-03-10T00:29:10.042+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.039 seconds
+[2025-03-10T00:30:45.508+0600] {processor.py:186} INFO - Started process (PID=48346) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-10T00:30:45.515+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-10T00:30:45.516+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:30:45.516+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-10T00:30:45.520+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-10T00:30:45.533+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.031 seconds
+[2025-03-10T00:31:59.748+0600] {processor.py:186} INFO - Started process (PID=48418) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-10T00:31:59.755+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-10T00:31:59.757+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:31:59.756+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-10T00:31:59.769+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-10T00:31:59.786+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
