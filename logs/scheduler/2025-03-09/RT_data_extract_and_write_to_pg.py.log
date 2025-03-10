@@ -1,0 +1,539 @@
+[2025-03-10T00:40:40.473+0600] {processor.py:186} INFO - Started process (PID=49371) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T00:40:40.474+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T00:40:40.476+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:40:40.476+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T00:40:49.478+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T00:40:49.873+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:40:49.873+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:40:49.886+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:40:49.885+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T00:40:49.921+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.455 seconds
+[2025-03-10T00:44:22.727+0600] {processor.py:186} INFO - Started process (PID=50266) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T00:44:22.755+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T00:44:22.757+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:44:22.756+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T00:44:32.537+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T00:44:32.962+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:44:32.961+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:44:32.977+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:44:32.977+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T00:44:33.008+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 10.288 seconds
+[2025-03-10T04:58:31.839+0600] {processor.py:186} INFO - Started process (PID=5333) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T04:58:31.841+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T04:58:31.843+0600] {logging_mixin.py:190} INFO - [2025-03-10T04:58:31.842+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T04:58:41.745+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T04:58:42.246+0600] {logging_mixin.py:190} INFO - [2025-03-10T04:58:42.245+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T04:58:42.269+0600] {logging_mixin.py:190} INFO - [2025-03-10T04:58:42.268+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T04:58:42.301+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 10.468 seconds
+[2025-03-10T05:04:22.536+0600] {processor.py:186} INFO - Started process (PID=6304) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:04:22.538+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:04:22.539+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:04:22.539+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:04:34.534+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:04:34.809+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:04:34.808+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:04:34.825+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:04:34.825+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:04:34.848+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 12.321 seconds
+[2025-03-10T05:05:41.856+0600] {processor.py:186} INFO - Started process (PID=6583) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:05:41.858+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:05:41.861+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:05:41.861+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:05:54.117+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:05:54.142+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:05:54.142+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:05:54.159+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:05:54.159+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:05:54.189+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 12.344 seconds
+[2025-03-10T05:06:25.180+0600] {processor.py:186} INFO - Started process (PID=6810) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:06:25.181+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:06:25.182+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:06:25.182+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:06:32.954+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:06:32.979+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:06:32.978+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:06:32.994+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:06:32.994+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:06:33.025+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.853 seconds
+[2025-03-10T05:07:35.927+0600] {processor.py:186} INFO - Started process (PID=7090) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:07:35.935+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:07:35.937+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:35.937+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:07:48.379+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:07:48.400+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:48.400+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:07:48.417+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:48.416+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:07:48.442+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 12.533 seconds
+[2025-03-10T05:08:19.809+0600] {processor.py:186} INFO - Started process (PID=7353) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:08:19.818+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:08:19.825+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:08:19.823+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:08:28.689+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:08:28.709+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:08:28.709+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:08:28.722+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:08:28.722+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:08:28.752+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.967 seconds
+[2025-03-10T05:09:00.084+0600] {processor.py:186} INFO - Started process (PID=7583) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:09:00.085+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:09:00.086+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:00.086+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:09:08.441+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:09:08.463+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:08.463+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:09:08.478+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:08.478+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:09:08.508+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.433 seconds
+[2025-03-10T05:09:43.450+0600] {processor.py:186} INFO - Started process (PID=7869) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:09:43.458+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:09:43.460+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:43.460+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:09:51.413+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:09:51.432+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:51.432+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:09:51.445+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:51.445+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:09:51.471+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.038 seconds
+[2025-03-10T05:10:25.620+0600] {processor.py:186} INFO - Started process (PID=8104) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:10:25.626+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:10:25.628+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:10:25.627+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:10:33.988+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:10:34.007+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:10:34.007+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:10:34.021+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:10:34.020+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:10:34.049+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.438 seconds
+[2025-03-10T05:11:07.716+0600] {processor.py:186} INFO - Started process (PID=8421) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:11:07.719+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:11:07.721+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:07.720+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:11:21.539+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:11:21.558+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:21.558+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:11:21.572+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:21.571+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:11:21.599+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 13.892 seconds
+[2025-03-10T05:11:53.524+0600] {processor.py:186} INFO - Started process (PID=8643) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:11:53.525+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:11:53.528+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:53.526+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:12:01.137+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:12:01.156+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:01.156+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:12:01.169+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:01.169+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:12:01.193+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.680 seconds
+[2025-03-10T05:12:34.220+0600] {processor.py:186} INFO - Started process (PID=8870) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:12:34.223+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:12:34.225+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:34.224+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:12:43.131+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:12:43.151+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:43.150+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:12:43.167+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:43.166+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:12:43.191+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.978 seconds
+[2025-03-10T05:13:13.512+0600] {processor.py:186} INFO - Started process (PID=9118) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:13:13.513+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:13:13.515+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:13:13.514+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:13:21.392+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:13:21.411+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:13:21.411+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:13:21.430+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:13:21.429+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:13:21.458+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.952 seconds
+[2025-03-10T05:14:22.208+0600] {processor.py:186} INFO - Started process (PID=9411) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:14:22.215+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:14:22.217+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:14:22.216+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:14:29.636+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:14:29.657+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:14:29.657+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:14:29.671+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:14:29.671+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:14:29.697+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.496 seconds
+[2025-03-10T05:15:00.921+0600] {processor.py:186} INFO - Started process (PID=9641) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:15:00.928+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:15:00.930+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:15:00.929+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:15:08.734+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:15:08.753+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:15:08.753+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:15:08.766+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:15:08.766+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:15:08.791+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.876 seconds
+[2025-03-10T05:16:08.628+0600] {processor.py:186} INFO - Started process (PID=9914) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:16:08.634+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:16:08.636+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:16:08.636+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:16:16.081+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:16:16.101+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:16:16.100+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:16:16.114+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:16:16.114+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:16:16.139+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.518 seconds
+[2025-03-10T05:17:14.615+0600] {processor.py:186} INFO - Started process (PID=10221) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:17:14.622+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:17:14.626+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:14.625+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:17:22.668+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:17:22.688+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:22.687+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:17:22.701+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:22.700+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:17:22.729+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.121 seconds
+[2025-03-10T05:17:54.926+0600] {processor.py:186} INFO - Started process (PID=10496) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:17:54.933+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:17:54.934+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:54.934+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:18:02.528+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:18:02.547+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:02.547+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:18:02.560+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:02.560+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:18:02.587+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.667 seconds
+[2025-03-10T05:18:34.845+0600] {processor.py:186} INFO - Started process (PID=10722) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:18:34.847+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:18:34.849+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:34.848+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:18:42.919+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:18:42.941+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:42.940+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:18:42.954+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:42.954+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:18:42.975+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.137 seconds
+[2025-03-10T05:19:14.088+0600] {processor.py:186} INFO - Started process (PID=10956) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:19:14.089+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:19:14.090+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:19:14.090+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:19:21.958+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:19:21.977+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:19:21.976+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:19:21.990+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:19:21.989+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:19:22.013+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.932 seconds
+[2025-03-10T05:20:21.525+0600] {processor.py:186} INFO - Started process (PID=11244) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:20:21.529+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:20:21.532+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:20:21.531+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:20:28.942+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:20:28.962+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:20:28.961+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:20:28.978+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:20:28.978+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:20:29.001+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.488 seconds
+[2025-03-10T05:21:28.814+0600] {processor.py:186} INFO - Started process (PID=11516) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:21:28.820+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:21:28.822+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:21:28.821+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:21:36.387+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:21:36.406+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:21:36.406+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:21:36.419+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:21:36.419+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:21:36.447+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.639 seconds
+[2025-03-10T05:22:08.595+0600] {processor.py:186} INFO - Started process (PID=11871) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:22:08.601+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:22:08.603+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:08.602+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:22:17.536+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:22:17.558+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:17.558+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:22:17.573+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:17.573+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:22:17.603+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.023 seconds
+[2025-03-10T05:22:48.339+0600] {processor.py:186} INFO - Started process (PID=12120) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:22:48.344+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:22:48.345+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:48.345+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:22:56.291+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:22:56.313+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:56.312+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:22:56.326+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:56.326+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:22:56.351+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.019 seconds
+[2025-03-10T05:23:26.815+0600] {processor.py:186} INFO - Started process (PID=12364) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:23:26.816+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:23:26.820+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:23:26.819+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:23:37.439+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:23:37.459+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:23:37.459+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:23:37.473+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:23:37.472+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:23:37.495+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 10.713 seconds
+[2025-03-10T05:24:10.914+0600] {processor.py:186} INFO - Started process (PID=12608) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:24:10.921+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:24:10.923+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:10.922+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:24:22.728+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:24:22.760+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:22.760+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:24:22.783+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:22.783+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:24:22.817+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 11.915 seconds
+[2025-03-10T05:24:55.284+0600] {processor.py:186} INFO - Started process (PID=12903) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:24:55.289+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:24:55.290+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:55.290+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:25:03.653+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:25:03.674+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:03.674+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:25:03.689+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:03.689+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:25:03.714+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.439 seconds
+[2025-03-10T05:25:34.477+0600] {processor.py:186} INFO - Started process (PID=13120) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:25:34.480+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:25:34.482+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:34.481+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:25:42.911+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:25:42.939+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:42.939+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:25:42.954+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:42.954+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:25:42.985+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.514 seconds
+[2025-03-10T05:26:14.284+0600] {processor.py:186} INFO - Started process (PID=13368) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:26:14.285+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:26:14.287+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:14.287+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:26:23.340+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:26:23.363+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:23.362+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:26:23.378+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:23.378+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:26:23.412+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.135 seconds
+[2025-03-10T05:26:56.100+0600] {processor.py:186} INFO - Started process (PID=13589) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:26:56.103+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:26:56.106+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:56.105+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:27:05.660+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:27:05.680+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:05.679+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:27:05.693+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:05.693+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:27:05.716+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.633 seconds
+[2025-03-10T05:27:39.787+0600] {processor.py:186} INFO - Started process (PID=13806) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:27:39.790+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:27:39.794+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:39.793+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:27:49.075+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:27:49.107+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:49.106+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:27:49.129+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:49.129+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:27:49.190+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.424 seconds
+[2025-03-10T05:28:20.614+0600] {processor.py:186} INFO - Started process (PID=14066) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:28:20.615+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:28:20.616+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:28:20.616+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:28:30.383+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:28:30.405+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:28:30.404+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:28:30.464+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:28:30.463+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:28:30.499+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.892 seconds
+[2025-03-10T05:29:01.831+0600] {processor.py:186} INFO - Started process (PID=14299) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:29:01.833+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:29:01.834+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:01.834+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:29:13.000+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:29:13.032+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:13.032+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:29:13.069+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:13.068+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:29:14.149+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 12.325 seconds
+[2025-03-10T05:29:45.032+0600] {processor.py:186} INFO - Started process (PID=14513) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:29:45.033+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:29:45.035+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:45.034+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:29:54.366+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:29:54.388+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:54.388+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:29:54.402+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:54.402+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:29:54.427+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.402 seconds
+[2025-03-10T05:30:28.980+0600] {processor.py:186} INFO - Started process (PID=14753) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:30:28.982+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:30:28.985+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:30:28.984+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:30:42.192+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:30:42.214+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:30:42.214+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:30:42.229+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:30:42.229+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:30:42.254+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 13.284 seconds
+[2025-03-10T05:31:18.454+0600] {processor.py:186} INFO - Started process (PID=14975) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:31:18.458+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:31:18.460+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:31:18.459+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:31:30.629+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:31:30.666+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:31:30.665+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:31:30.684+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:31:30.683+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:31:30.713+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 12.267 seconds
+[2025-03-10T05:32:03.377+0600] {processor.py:186} INFO - Started process (PID=15206) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:32:03.382+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:32:03.384+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:03.383+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:32:12.010+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:32:12.033+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:12.032+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:32:12.048+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:12.048+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:32:12.073+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.703 seconds
+[2025-03-10T05:32:48.104+0600] {processor.py:186} INFO - Started process (PID=15499) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:32:48.111+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:32:48.113+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:48.112+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:32:59.434+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:32:59.460+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:59.460+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:32:59.748+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:59.747+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:32:59.779+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 11.688 seconds
+[2025-03-10T05:33:37.480+0600] {processor.py:186} INFO - Started process (PID=15718) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:33:37.490+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:33:37.494+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:37.493+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:33:47.873+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:33:47.894+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:47.894+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:33:47.908+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:47.908+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:33:47.930+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 10.479 seconds
+[2025-03-10T05:34:22.633+0600] {processor.py:186} INFO - Started process (PID=15940) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:34:22.638+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:34:22.640+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:34:22.639+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:34:31.056+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:34:31.077+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:34:31.076+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:34:31.096+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:34:31.096+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:34:31.288+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.664 seconds
+[2025-03-10T05:35:03.965+0600] {processor.py:186} INFO - Started process (PID=16157) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:35:03.970+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:35:03.971+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:03.971+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:35:12.907+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:35:12.928+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:12.927+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:35:12.943+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:12.943+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:35:12.970+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.011 seconds
+[2025-03-10T05:35:47.952+0600] {processor.py:186} INFO - Started process (PID=16420) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:35:47.953+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:35:47.955+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:47.954+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:35:56.549+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:35:56.568+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:56.568+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:35:56.581+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:56.581+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:35:56.610+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.666 seconds
+[2025-03-10T05:36:30.217+0600] {processor.py:186} INFO - Started process (PID=16635) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:36:30.226+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:36:30.232+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:36:30.230+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:36:39.716+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:36:39.732+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:36:39.732+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:36:39.744+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:36:39.743+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:36:39.766+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.571 seconds
+[2025-03-10T05:37:10.397+0600] {processor.py:186} INFO - Started process (PID=16853) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:37:10.403+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:37:10.405+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:10.404+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:37:19.221+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:37:19.242+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:19.242+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:37:19.257+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:19.257+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:37:19.285+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.896 seconds
+[2025-03-10T05:37:49.583+0600] {processor.py:186} INFO - Started process (PID=17095) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:37:49.590+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:37:49.591+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:49.591+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:37:57.436+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:37:57.458+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:57.458+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:37:57.642+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:57.642+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:37:57.662+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.085 seconds
+[2025-03-10T05:38:30.196+0600] {processor.py:186} INFO - Started process (PID=17332) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:38:30.198+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:38:30.201+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:38:30.200+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:38:38.955+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:38:38.971+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:38:38.971+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:38:38.986+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:38:38.986+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:38:39.011+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.827 seconds
+[2025-03-10T05:39:12.683+0600] {processor.py:186} INFO - Started process (PID=17569) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:39:12.684+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:39:12.686+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:12.685+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:39:20.480+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:39:20.500+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:20.500+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:39:20.685+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:20.684+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:39:20.708+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.032 seconds
+[2025-03-10T05:39:53.196+0600] {processor.py:186} INFO - Started process (PID=17791) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:39:53.197+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:39:53.199+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:53.198+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:40:02.193+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:40:02.210+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:02.210+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:40:02.224+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:02.224+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:40:02.291+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.107 seconds
+[2025-03-10T05:40:33.680+0600] {processor.py:186} INFO - Started process (PID=18017) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:40:33.681+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:40:33.684+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:33.683+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:40:41.506+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:40:41.526+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:41.526+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:40:41.541+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:41.541+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:40:41.740+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.066 seconds
+[2025-03-10T05:41:13.155+0600] {processor.py:186} INFO - Started process (PID=18244) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:41:13.156+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:41:13.157+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:13.157+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:41:21.606+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:41:21.799+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:21.798+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:41:21.810+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:21.810+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:41:21.834+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.686 seconds
+[2025-03-10T05:41:52.439+0600] {processor.py:186} INFO - Started process (PID=18470) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:41:52.440+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:41:52.441+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:52.441+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:42:01.245+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:42:01.271+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:01.270+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:42:01.287+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:01.287+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:42:01.316+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.884 seconds
+[2025-03-10T05:42:31.953+0600] {processor.py:186} INFO - Started process (PID=18696) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:42:31.954+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:42:31.955+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:31.955+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:42:41.260+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:42:41.287+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:41.286+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:42:41.497+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:41.496+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:42:41.524+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.578 seconds
+[2025-03-10T05:43:15.436+0600] {processor.py:186} INFO - Started process (PID=18950) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:43:15.442+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:43:15.444+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:43:15.444+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:43:24.381+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:43:24.398+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:43:24.398+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:43:24.411+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:43:24.411+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:43:24.437+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.009 seconds
+[2025-03-10T05:44:02.951+0600] {processor.py:186} INFO - Started process (PID=19180) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:44:02.958+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:44:02.960+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:02.959+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:44:12.577+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:44:12.598+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:12.597+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:44:12.615+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:12.615+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:44:12.642+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.704 seconds
+[2025-03-10T05:44:50.153+0600] {processor.py:186} INFO - Started process (PID=19397) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:44:50.157+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:44:50.160+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:50.159+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:44:59.040+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:44:59.065+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:59.064+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:44:59.083+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:59.083+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:44:59.108+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.963 seconds
+[2025-03-10T05:45:30.599+0600] {processor.py:186} INFO - Started process (PID=19616) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:45:30.604+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:45:30.610+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:30.608+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:45:39.220+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:45:39.237+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:39.236+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:45:39.252+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:39.251+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:45:39.288+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.708 seconds
+[2025-03-10T05:46:11.869+0600] {processor.py:186} INFO - Started process (PID=19831) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:46:11.873+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:46:11.878+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:11.877+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:46:21.242+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:46:21.258+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:21.258+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:46:21.270+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:21.269+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:46:21.291+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.443 seconds
+[2025-03-10T05:46:56.513+0600] {processor.py:186} INFO - Started process (PID=20049) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:46:56.519+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:46:56.521+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:56.520+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:47:04.848+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:47:04.865+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:04.865+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:47:04.877+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:04.877+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:47:04.904+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.399 seconds
+[2025-03-10T05:47:38.634+0600] {processor.py:186} INFO - Started process (PID=20313) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:47:38.640+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:47:38.642+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:38.642+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:47:47.496+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:47:47.509+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:47.509+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:47:47.520+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:47.520+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:47:47.544+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.916 seconds
+[2025-03-10T05:48:22.941+0600] {processor.py:186} INFO - Started process (PID=20566) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:48:22.948+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:48:22.950+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:48:22.949+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:48:30.632+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:48:30.658+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:48:30.657+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:48:30.679+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:48:30.678+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:48:30.710+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.776 seconds
+[2025-03-10T05:49:04.695+0600] {processor.py:186} INFO - Started process (PID=20787) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:49:04.698+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:49:04.700+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:04.699+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:49:12.445+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:49:12.462+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:12.461+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:49:12.474+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:12.473+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:49:12.499+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.811 seconds
+[2025-03-10T05:49:43.403+0600] {processor.py:186} INFO - Started process (PID=21003) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:49:43.409+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:49:43.411+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:43.411+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:49:51.591+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:49:51.609+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:51.608+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:49:51.621+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:51.620+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:49:51.646+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.251 seconds
+[2025-03-10T05:50:26.333+0600] {processor.py:186} INFO - Started process (PID=21293) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:50:26.339+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:50:26.342+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:50:26.341+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:50:36.118+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:50:36.142+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:50:36.141+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:50:36.156+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:50:36.155+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:50:36.177+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.852 seconds
+[2025-03-10T05:51:16.180+0600] {processor.py:186} INFO - Started process (PID=21512) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:51:16.187+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:51:16.189+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:51:16.188+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:51:25.555+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:51:25.576+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:51:25.575+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:51:25.590+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:51:25.590+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:51:25.617+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.445 seconds
+[2025-03-10T05:52:03.327+0600] {processor.py:186} INFO - Started process (PID=21730) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:52:03.333+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:52:03.335+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:03.334+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:52:10.891+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:52:10.913+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:10.912+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:52:10.928+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:10.928+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:52:10.954+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.634 seconds
+[2025-03-10T05:52:44.777+0600] {processor.py:186} INFO - Started process (PID=21947) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:52:44.784+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:52:44.789+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:44.787+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:52:55.525+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:52:55.546+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:55.546+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:52:55.558+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:55.558+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:52:55.584+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 10.825 seconds
+[2025-03-10T05:53:30.686+0600] {processor.py:186} INFO - Started process (PID=22221) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:53:30.815+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:53:30.822+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:53:30.820+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:53:42.537+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:53:42.560+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:53:42.560+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:53:42.579+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:53:42.578+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:53:42.613+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 11.934 seconds
+[2025-03-10T05:54:25.587+0600] {processor.py:186} INFO - Started process (PID=22463) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:54:25.602+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:54:25.604+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:54:25.603+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:54:34.468+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:54:34.485+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:54:34.485+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:54:34.497+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:54:34.497+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:54:34.523+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.951 seconds
+[2025-03-10T05:55:18.224+0600] {processor.py:186} INFO - Started process (PID=22690) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:55:18.231+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:55:18.232+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:55:18.232+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:55:26.586+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:55:26.609+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:55:26.609+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:55:26.624+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:55:26.624+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:55:26.648+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.432 seconds
+[2025-03-10T05:56:04.054+0600] {processor.py:186} INFO - Started process (PID=22934) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:56:04.063+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:56:04.070+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:04.067+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:56:13.230+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:56:13.253+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:13.253+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:56:13.269+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:13.269+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:56:13.302+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.274 seconds
+[2025-03-10T05:56:45.945+0600] {processor.py:186} INFO - Started process (PID=23151) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:56:45.947+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:56:45.949+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:45.949+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:56:54.616+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:56:54.650+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:54.650+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:56:54.665+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:54.665+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:56:54.692+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 8.759 seconds
+[2025-03-10T05:57:29.574+0600] {processor.py:186} INFO - Started process (PID=23385) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:57:29.580+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:57:29.583+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:57:29.582+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:57:43.606+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:57:43.640+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:57:43.639+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:57:43.664+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:57:43.664+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:57:43.736+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 14.175 seconds
+[2025-03-10T05:58:20.864+0600] {processor.py:186} INFO - Started process (PID=23656) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:58:20.870+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:58:20.872+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:58:20.872+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:58:28.654+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:58:28.674+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:58:28.673+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:58:28.689+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:58:28.688+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:58:28.710+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 7.856 seconds
+[2025-03-10T05:59:01.323+0600] {processor.py:186} INFO - Started process (PID=23874) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:59:01.327+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:59:01.329+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:01.328+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:59:10.390+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:59:10.412+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:10.411+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:59:10.426+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:10.425+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:59:10.453+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 9.138 seconds
+[2025-03-10T05:59:44.057+0600] {processor.py:186} INFO - Started process (PID=24094) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:59:44.064+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py for tasks to queue
+[2025-03-10T05:59:44.066+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:44.065+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:59:54.234+0600] {processor.py:925} INFO - DAG(s) 'real_time_e2e_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py
+[2025-03-10T05:59:54.262+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:54.261+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:59:54.283+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:54.282+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to None, run_after=None
+[2025-03-10T05:59:54.319+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_data_extract_and_write_to_pg.py took 10.269 seconds

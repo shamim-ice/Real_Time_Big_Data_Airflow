@@ -537,3 +537,8 @@
 [2025-03-10T00:29:32.777+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:29:32.777+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T00:29:32.805+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:29:32.805+0600] {dag.py:4180} INFO - Setting next_dagrun for real_time_e2e_dag to 2025-03-08 23:00:00+00:00, run_after=2025-03-09 23:00:00+00:00
 [2025-03-10T00:29:32.840+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_temp.py took 14.278 seconds
+[2025-03-10T00:40:39.209+0600] {processor.py:186} INFO - Started process (PID=49369) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_temp.py
+[2025-03-10T00:40:39.210+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_temp.py for tasks to queue
+[2025-03-10T00:40:39.213+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:40:39.212+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_temp.py
+[2025-03-10T00:40:39.213+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_temp.py
+[2025-03-10T00:40:39.222+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/RT_temp.py took 0.020 seconds

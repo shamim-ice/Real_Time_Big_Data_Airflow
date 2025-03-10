@@ -495,3 +495,479 @@
 [2025-03-10T00:32:09.943+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:32:09.943+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T00:32:09.961+0600] {logging_mixin.py:190} INFO - [2025-03-10T00:32:09.961+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
 [2025-03-10T00:32:09.982+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.134 seconds
+[2025-03-10T05:04:36.037+0600] {processor.py:186} INFO - Started process (PID=6492) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:04:36.045+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:04:36.047+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:04:36.047+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:04:36.052+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:04:36.084+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:04:36.083+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:04:36.099+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:04:36.098+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:04:36.127+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.097 seconds
+[2025-03-10T05:05:55.362+0600] {processor.py:186} INFO - Started process (PID=6776) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:05:55.367+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:05:55.369+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:05:55.369+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:05:55.376+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:05:55.396+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:05:55.396+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:05:55.410+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:05:55.410+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:05:55.433+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.080 seconds
+[2025-03-10T05:07:01.962+0600] {processor.py:186} INFO - Started process (PID=7035) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:07:01.968+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:07:01.971+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:01.970+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:07:01.978+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:07:02.005+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:02.005+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:07:02.019+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:02.018+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:07:02.040+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.089 seconds
+[2025-03-10T05:07:49.574+0600] {processor.py:186} INFO - Started process (PID=7309) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:07:49.579+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:07:49.580+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:49.580+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:07:49.587+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:07:49.617+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:49.617+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:07:49.645+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:07:49.644+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:07:49.672+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.107 seconds
+[2025-03-10T05:09:09.695+0600] {processor.py:186} INFO - Started process (PID=7820) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:09:09.701+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:09:09.703+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:09.703+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:09:09.709+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:09:09.728+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:09.728+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:09:09.741+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:09.741+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:09:09.764+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.076 seconds
+[2025-03-10T05:09:52.653+0600] {processor.py:186} INFO - Started process (PID=8056) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:09:52.660+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:09:52.662+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:52.662+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:09:52.667+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:09:52.688+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:52.687+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:09:52.701+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:09:52.701+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:09:52.721+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.074 seconds
+[2025-03-10T05:10:35.269+0600] {processor.py:186} INFO - Started process (PID=8288) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:10:35.275+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:10:35.277+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:10:35.276+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:10:35.282+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:10:35.303+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:10:35.302+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:10:35.318+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:10:35.317+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:10:35.345+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.086 seconds
+[2025-03-10T05:11:22.750+0600] {processor.py:186} INFO - Started process (PID=8611) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:11:22.758+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:11:22.760+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:22.759+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:11:22.767+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:11:22.795+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:22.794+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:11:22.811+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:11:22.810+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:11:22.840+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.101 seconds
+[2025-03-10T05:12:02.336+0600] {processor.py:186} INFO - Started process (PID=8827) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:12:02.342+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:12:02.344+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:02.343+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:12:02.350+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:12:02.371+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:02.371+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:12:02.384+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:02.384+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:12:02.405+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.078 seconds
+[2025-03-10T05:12:44.348+0600] {processor.py:186} INFO - Started process (PID=9074) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:12:44.352+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:12:44.354+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:44.354+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:12:44.359+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:12:44.377+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:44.377+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:12:44.390+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:12:44.390+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:12:44.413+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.072 seconds
+[2025-03-10T05:13:51.341+0600] {processor.py:186} INFO - Started process (PID=9366) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:13:51.348+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:13:51.349+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:13:51.349+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:13:51.354+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:13:51.374+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:13:51.374+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:13:51.388+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:13:51.388+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:13:51.411+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.077 seconds
+[2025-03-10T05:14:30.860+0600] {processor.py:186} INFO - Started process (PID=9596) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:14:30.866+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:14:30.868+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:14:30.867+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:14:30.872+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:14:30.892+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:14:30.891+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:14:30.905+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:14:30.904+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:14:30.927+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.074 seconds
+[2025-03-10T05:15:37.183+0600] {processor.py:186} INFO - Started process (PID=9880) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:15:37.189+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:15:37.190+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:15:37.190+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:15:37.195+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:15:37.214+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:15:37.214+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:15:37.228+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:15:37.227+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:15:37.257+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.082 seconds
+[2025-03-10T05:16:17.264+0600] {processor.py:186} INFO - Started process (PID=10100) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:16:17.270+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:16:17.272+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:16:17.272+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:16:17.278+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:16:17.300+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:16:17.300+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:16:17.313+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:16:17.313+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:16:17.336+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.081 seconds
+[2025-03-10T05:17:23.835+0600] {processor.py:186} INFO - Started process (PID=10419) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:17:23.841+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:17:23.843+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:23.843+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:17:23.848+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:17:23.869+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:23.869+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:17:23.882+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:17:23.881+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:17:23.904+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.076 seconds
+[2025-03-10T05:18:03.190+0600] {processor.py:186} INFO - Started process (PID=10679) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:18:03.198+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:18:03.200+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:03.200+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:18:03.207+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:18:03.229+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:03.229+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:18:03.243+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:03.243+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:18:03.269+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.091 seconds
+[2025-03-10T05:18:43.821+0600] {processor.py:186} INFO - Started process (PID=10922) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:18:43.828+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:18:43.830+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:43.829+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:18:43.836+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:18:43.859+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:43.859+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:18:43.873+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:18:43.872+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:18:43.902+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.091 seconds
+[2025-03-10T05:19:23.193+0600] {processor.py:186} INFO - Started process (PID=11153) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:19:23.196+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:19:23.198+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:19:23.197+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:19:23.202+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:19:23.221+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:19:23.220+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:19:23.234+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:19:23.233+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:19:23.254+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.068 seconds
+[2025-03-10T05:20:30.128+0600] {processor.py:186} INFO - Started process (PID=11429) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:20:30.134+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:20:30.135+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:20:30.135+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:20:30.140+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:20:30.161+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:20:30.161+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:20:30.174+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:20:30.174+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:20:30.194+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.073 seconds
+[2025-03-10T05:21:37.616+0600] {processor.py:186} INFO - Started process (PID=11710) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:21:37.622+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:21:37.624+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:21:37.623+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:21:37.628+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:21:37.647+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:21:37.647+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:21:37.660+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:21:37.660+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:21:37.685+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.076 seconds
+[2025-03-10T05:22:18.882+0600] {processor.py:186} INFO - Started process (PID=12057) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:22:18.887+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:22:18.890+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:18.889+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:22:18.897+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:22:18.917+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:18.917+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:22:18.934+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:22:18.934+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:22:18.957+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.096 seconds
+[2025-03-10T05:23:38.648+0600] {processor.py:186} INFO - Started process (PID=12548) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:23:38.652+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:23:38.655+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:23:38.654+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:23:38.663+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:23:38.686+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:23:38.685+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:23:38.698+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:23:38.698+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:23:38.725+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.088 seconds
+[2025-03-10T05:24:23.953+0600] {processor.py:186} INFO - Started process (PID=12852) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:24:23.961+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:24:23.963+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:23.963+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:24:23.970+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:24:23.994+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:23.993+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:24:24.019+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:24:24.018+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:24:24.056+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.115 seconds
+[2025-03-10T05:25:04.010+0600] {processor.py:186} INFO - Started process (PID=13089) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:25:04.015+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:25:04.019+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:04.018+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:25:04.028+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:25:04.059+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:04.059+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:25:04.073+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:04.073+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:25:04.096+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.101 seconds
+[2025-03-10T05:25:44.122+0600] {processor.py:186} INFO - Started process (PID=13305) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:25:44.126+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:25:44.128+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:44.128+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:25:44.133+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:25:44.152+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:44.152+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:25:44.166+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:25:44.165+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:25:44.186+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.071 seconds
+[2025-03-10T05:26:23.987+0600] {processor.py:186} INFO - Started process (PID=13554) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:26:23.994+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:26:23.996+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:23.995+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:26:24.002+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:26:24.031+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:24.030+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:26:24.047+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:26:24.047+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:26:24.096+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.121 seconds
+[2025-03-10T05:27:06.834+0600] {processor.py:186} INFO - Started process (PID=13773) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:27:06.837+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:27:06.838+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:06.838+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:27:06.844+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:27:06.864+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:06.864+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:27:06.879+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:06.878+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:27:06.902+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.077 seconds
+[2025-03-10T05:27:50.347+0600] {processor.py:186} INFO - Started process (PID=14023) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:27:50.353+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:27:50.355+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:50.355+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:27:50.361+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:27:50.381+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:50.381+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:27:50.394+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:27:50.394+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:27:50.419+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.080 seconds
+[2025-03-10T05:28:31.646+0600] {processor.py:186} INFO - Started process (PID=14253) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:28:31.653+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:28:31.658+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:28:31.654+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:28:31.670+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:28:31.714+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:28:31.714+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:28:31.736+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:28:31.735+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:28:31.788+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.152 seconds
+[2025-03-10T05:29:54.924+0600] {processor.py:186} INFO - Started process (PID=14706) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:29:54.927+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:29:54.932+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:54.931+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:29:54.943+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:29:54.978+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:54.978+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:29:55.001+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:29:55.001+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:29:55.034+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.130 seconds
+[2025-03-10T05:30:43.420+0600] {processor.py:186} INFO - Started process (PID=14939) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:30:43.424+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:30:43.426+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:30:43.426+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:30:43.433+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:30:43.459+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:30:43.458+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:30:43.479+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:30:43.479+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:30:43.510+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.100 seconds
+[2025-03-10T05:31:31.946+0600] {processor.py:186} INFO - Started process (PID=15175) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:31:31.950+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:31:31.952+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:31:31.951+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:31:31.959+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:31:31.988+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:31:31.987+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:31:32.012+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:31:32.012+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:31:32.044+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.110 seconds
+[2025-03-10T05:32:13.213+0600] {processor.py:186} INFO - Started process (PID=15391) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:32:13.219+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:32:13.222+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:13.221+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:32:13.229+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:32:13.260+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:13.260+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:32:13.276+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:32:13.276+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:32:13.301+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.101 seconds
+[2025-03-10T05:33:00.960+0600] {processor.py:186} INFO - Started process (PID=15682) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:33:00.961+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:33:00.963+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:00.962+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:33:00.970+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:33:00.993+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:00.993+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:33:01.007+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:01.006+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:33:01.027+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.075 seconds
+[2025-03-10T05:33:49.126+0600] {processor.py:186} INFO - Started process (PID=15905) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:33:49.131+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:33:49.133+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:49.132+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:33:49.138+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:33:49.158+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:49.158+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:33:49.174+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:33:49.174+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:33:49.201+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.083 seconds
+[2025-03-10T05:34:32.447+0600] {processor.py:186} INFO - Started process (PID=16124) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:34:32.451+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:34:32.452+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:34:32.452+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:34:32.457+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:34:32.476+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:34:32.476+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:34:32.489+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:34:32.489+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:34:32.510+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.070 seconds
+[2025-03-10T05:35:14.111+0600] {processor.py:186} INFO - Started process (PID=16373) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:35:14.118+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:35:14.120+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:14.119+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:35:14.125+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:35:14.146+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:14.146+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:35:14.162+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:14.162+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:35:14.188+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.084 seconds
+[2025-03-10T05:35:57.756+0600] {processor.py:186} INFO - Started process (PID=16603) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:35:57.760+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:35:57.762+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:57.761+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:35:57.769+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:35:57.800+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:57.800+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:35:57.821+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:35:57.820+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:35:57.845+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.100 seconds
+[2025-03-10T05:36:40.986+0600] {processor.py:186} INFO - Started process (PID=16822) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:36:40.993+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:36:40.997+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:36:40.996+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:36:41.004+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:36:41.029+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:36:41.029+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:36:41.044+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:36:41.044+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:36:41.069+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.108 seconds
+[2025-03-10T05:37:58.805+0600] {processor.py:186} INFO - Started process (PID=17280) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:37:58.812+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:37:58.814+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:58.813+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:37:58.819+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:37:58.839+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:58.839+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:37:58.853+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:37:58.852+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:37:58.876+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.079 seconds
+[2025-03-10T05:38:40.198+0600] {processor.py:186} INFO - Started process (PID=17521) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:38:40.205+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:38:40.206+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:38:40.206+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:38:40.211+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:38:40.230+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:38:40.229+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:38:40.243+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:38:40.243+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:38:40.266+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.077 seconds
+[2025-03-10T05:39:21.879+0600] {processor.py:186} INFO - Started process (PID=17753) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:39:21.883+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:39:21.885+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:21.884+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:39:21.890+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:39:21.909+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:21.909+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:39:21.923+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:39:21.922+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:39:21.945+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.074 seconds
+[2025-03-10T05:40:03.452+0600] {processor.py:186} INFO - Started process (PID=17976) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:40:03.456+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:40:03.457+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:03.457+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:40:03.462+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:40:03.482+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:03.482+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:40:03.497+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:03.497+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:40:03.519+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.077 seconds
+[2025-03-10T05:40:42.910+0600] {processor.py:186} INFO - Started process (PID=18201) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:40:42.917+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:40:42.920+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:42.919+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:40:42.926+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:40:42.948+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:42.948+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:40:42.962+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:40:42.962+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:40:42.988+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.087 seconds
+[2025-03-10T05:41:22.985+0600] {processor.py:186} INFO - Started process (PID=18428) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:41:22.992+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:41:22.993+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:22.993+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:41:22.998+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:41:23.017+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:23.017+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:41:23.031+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:41:23.030+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:41:23.053+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.076 seconds
+[2025-03-10T05:42:42.729+0600] {processor.py:186} INFO - Started process (PID=18884) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:42:42.731+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:42:42.733+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:42.733+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:42:42.739+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:42:42.758+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:42.758+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:42:42.772+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:42:42.772+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:42:42.796+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.086 seconds
+[2025-03-10T05:43:25.590+0600] {processor.py:186} INFO - Started process (PID=19142) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:43:25.597+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:43:25.601+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:43:25.600+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:43:25.613+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:43:25.638+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:43:25.638+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:43:25.652+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:43:25.651+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:43:25.687+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.105 seconds
+[2025-03-10T05:44:13.827+0600] {processor.py:186} INFO - Started process (PID=19363) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:44:13.829+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:44:13.831+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:13.830+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:44:13.837+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:44:13.858+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:13.858+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:44:13.873+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:44:13.873+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:44:13.897+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.078 seconds
+[2025-03-10T05:45:00.281+0600] {processor.py:186} INFO - Started process (PID=19581) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:45:00.285+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:45:00.287+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:00.286+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:45:00.292+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:45:00.312+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:00.312+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:45:00.327+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:00.327+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:45:00.351+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.077 seconds
+[2025-03-10T05:45:40.014+0600] {processor.py:186} INFO - Started process (PID=19800) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:45:40.017+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:45:40.019+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:40.018+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:45:40.024+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:45:40.044+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:40.044+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:45:40.059+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:45:40.058+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:45:40.081+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.074 seconds
+[2025-03-10T05:46:22.526+0600] {processor.py:186} INFO - Started process (PID=20014) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:46:22.532+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:46:22.534+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:22.533+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:46:22.540+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:46:22.563+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:22.563+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:46:22.580+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:46:22.580+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:46:22.608+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.095 seconds
+[2025-03-10T05:47:06.031+0600] {processor.py:186} INFO - Started process (PID=20233) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:47:06.035+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:47:06.037+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:06.036+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:47:06.043+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:47:06.063+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:06.063+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:47:06.079+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:06.078+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:47:06.101+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.077 seconds
+[2025-03-10T05:47:48.649+0600] {processor.py:186} INFO - Started process (PID=20530) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:47:48.656+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:47:48.657+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:48.657+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:47:48.663+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:47:48.683+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:48.683+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:47:48.698+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:47:48.697+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:47:48.724+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.081 seconds
+[2025-03-10T05:48:31.874+0600] {processor.py:186} INFO - Started process (PID=20752) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:48:31.880+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:48:31.882+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:48:31.882+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:48:31.888+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:48:31.909+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:48:31.909+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:48:31.925+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:48:31.925+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:48:31.950+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.084 seconds
+[2025-03-10T05:49:13.597+0600] {processor.py:186} INFO - Started process (PID=20973) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:49:13.604+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:49:13.606+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:13.606+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:49:13.611+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:49:13.630+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:13.630+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:49:13.644+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:49:13.644+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:49:13.667+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.076 seconds
+[2025-03-10T05:50:37.432+0600] {processor.py:186} INFO - Started process (PID=21476) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:50:37.434+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:50:37.438+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:50:37.438+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:50:37.448+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:50:37.474+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:50:37.474+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:50:37.498+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:50:37.497+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:50:37.523+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.119 seconds
+[2025-03-10T05:51:26.835+0600] {processor.py:186} INFO - Started process (PID=21695) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:51:26.841+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:51:26.843+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:51:26.842+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:51:26.848+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:51:26.871+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:51:26.870+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:51:26.887+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:51:26.887+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:51:26.909+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.083 seconds
+[2025-03-10T05:52:11.173+0600] {processor.py:186} INFO - Started process (PID=21913) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:52:11.176+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:52:11.178+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:11.177+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:52:11.183+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:52:11.203+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:11.203+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:52:11.218+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:11.218+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:52:11.244+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.080 seconds
+[2025-03-10T05:52:56.698+0600] {processor.py:186} INFO - Started process (PID=22164) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:52:56.704+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:52:56.706+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:56.705+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:52:56.712+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:52:56.735+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:56.735+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:52:56.751+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:52:56.750+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:52:56.776+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.085 seconds
+[2025-03-10T05:53:43.967+0600] {processor.py:186} INFO - Started process (PID=22410) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:53:43.969+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:53:43.972+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:53:43.971+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:53:43.981+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:53:44.011+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:53:44.010+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:53:44.030+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:53:44.030+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:53:44.201+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.256 seconds
+[2025-03-10T05:54:35.894+0600] {processor.py:186} INFO - Started process (PID=22648) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:54:35.895+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:54:35.897+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:54:35.896+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:54:35.902+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:54:35.926+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:54:35.926+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:54:35.941+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:54:35.940+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:54:35.962+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.075 seconds
+[2025-03-10T05:55:27.852+0600] {processor.py:186} INFO - Started process (PID=22874) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:55:27.858+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:55:27.860+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:55:27.859+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:55:27.868+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:55:27.894+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:55:27.894+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:55:27.918+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:55:27.917+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:55:27.950+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.110 seconds
+[2025-03-10T05:56:14.489+0600] {processor.py:186} INFO - Started process (PID=23119) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:56:14.494+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:56:14.496+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:14.495+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:56:14.503+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:56:14.523+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:14.522+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:56:14.536+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:14.536+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:56:14.560+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.080 seconds
+[2025-03-10T05:56:55.898+0600] {processor.py:186} INFO - Started process (PID=23338) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:56:55.902+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:56:55.905+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:55.904+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:56:55.911+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:56:55.933+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:55.933+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:56:55.949+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:56:55.949+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:56:55.972+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.086 seconds
+[2025-03-10T05:57:45.036+0600] {processor.py:186} INFO - Started process (PID=23606) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:57:45.047+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:57:45.050+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:57:45.049+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:57:45.067+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:57:45.129+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:57:45.128+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:57:45.157+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:57:45.157+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:57:45.195+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.178 seconds
+[2025-03-10T05:58:29.304+0600] {processor.py:186} INFO - Started process (PID=23840) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:58:29.309+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:58:29.312+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:58:29.311+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:58:29.319+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:58:29.339+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:58:29.339+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:58:29.354+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:58:29.354+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:58:29.376+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.086 seconds
+[2025-03-10T05:59:11.675+0600] {processor.py:186} INFO - Started process (PID=24061) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:59:11.683+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:59:11.687+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:11.686+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:59:11.698+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:59:11.720+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:11.720+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:59:11.733+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:11.733+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:59:11.756+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.099 seconds
+[2025-03-10T05:59:55.586+0600] {processor.py:186} INFO - Started process (PID=24279) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:59:55.593+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py for tasks to queue
+[2025-03-10T05:59:55.596+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:55.595+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:59:55.602+0600] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py
+[2025-03-10T05:59:55.627+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:55.627+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T05:59:55.642+0600] {logging_mixin.py:190} INFO - [2025-03-10T05:59:55.642+0600] {dag.py:4180} INFO - Setting next_dagrun for test_dag to None, run_after=None
+[2025-03-10T05:59:55.665+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/testDag.py took 0.089 seconds
