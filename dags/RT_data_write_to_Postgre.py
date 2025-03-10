@@ -13,7 +13,8 @@ spark=SparkSession.builder.appName('rtKafkaSpark')\
 
 
 # Read stream from Kafka
-df = spark.readStream.format('kafka')\
+df = spark.readStream\
+    .format('kafka')\
     .option('kafka.bootstrap.servers', 'localhost:9092')\
     .option('subscribe', 'sensor_data')\
     .option('startingOffsets', 'latest')\
