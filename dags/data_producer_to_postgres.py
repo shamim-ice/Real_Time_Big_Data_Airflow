@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import expr, col, from_json
-from pyspark.sql.types import IntegerType, StringType, DoubleType, StructType, StructField
+from pyspark.sql.types import DateType,IntegerType, StringType, DoubleType, StructType, StructField,TimestampType
 
 
 spark=SparkSession.builder.appName('RT_Data_Producer')\
@@ -16,15 +16,21 @@ spark=SparkSession.builder.appName('RT_Data_Producer')\
 df = spark.readStream\
     .format('kafka')\
     .option('kafka.bootstrap.servers', 'localhost:9092')\
-    .option('subscribe', 'sensor_data')\
+    .option('subscribe', 'weather_data')\
     .option('startingOffsets', 'latest')\
     .load()
 
 schema = StructType([
     StructField("id", IntegerType(), True),
-    StructField("date", StringType(), True),
+    StructField("date_time", TimestampType(), True),
+    StructField('city', StringType(),True),
     StructField("temperature", DoubleType(), True),
-    StructField("humidity", DoubleType(), True)
+    StructField("humidity", DoubleType(), True),
+    StructField('pressure', DoubleType(),True),
+    StructField('wind_speed', DoubleType(), True),
+    StructField('wind_direction', StringType(), True),
+    StructField('precipitation', StringType(), True),
+    StructField('cloud_cover', DoubleType(), True)
     ])
 
 parsed_df = df.selectExpr('CAST(value AS STRING)')\
@@ -35,7 +41,7 @@ def write_to_postgres(batch_df, batch_id):
     batch_df.write \
         .format("jdbc") \
         .option("url", "jdbc:postgresql://localhost:5432/postgres") \
-        .option("dbtable", "temperature_info") \
+        .option("dbtable", "weather_info") \
         .option("user", "postgres") \
         .option("password", "1418") \
         .mode("append") \
