@@ -1,0 +1,140 @@
+[2025-03-10T21:22:33.725+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T21:22:33.752+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: E2E_kafka_producer_data_ETL_dag.load_fact_dim_table_task manual__2025-03-10T15:22:02.937156+00:00 [queued]>
+[2025-03-10T21:22:33.766+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: E2E_kafka_producer_data_ETL_dag.load_fact_dim_table_task manual__2025-03-10T15:22:02.937156+00:00 [queued]>
+[2025-03-10T21:22:33.766+0600] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-10T21:22:33.787+0600] {taskinstance.py:2890} INFO - Executing <Task(SQLExecuteQueryOperator): load_fact_dim_table_task> on 2025-03-10 15:22:02.937156+00:00
+[2025-03-10T21:22:33.800+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'E2E_kafka_producer_data_ETL_dag', 'load_fact_dim_table_task', 'manual__2025-03-10T15:22:02.937156+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/E2E_ETL_pipeline.py', '--cfg-path', '/tmp/tmp49646glo']
+[2025-03-10T21:22:33.802+0600] {standard_task_runner.py:105} INFO - Job 71: Subtask load_fact_dim_table_task
+[2025-03-10T21:22:33.808+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=87072) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-10T21:22:33.810+0600] {standard_task_runner.py:72} INFO - Started process 87086 to run task
+[2025-03-10T21:22:33.845+0600] {task_command.py:467} INFO - Running <TaskInstance: E2E_kafka_producer_data_ETL_dag.load_fact_dim_table_task manual__2025-03-10T15:22:02.937156+00:00 [running]> on host shamim-X541UV
+[2025-03-10T21:22:33.927+0600] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='E2E_kafka_producer_data_ETL_dag' AIRFLOW_CTX_TASK_ID='load_fact_dim_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T15:22:02.937156+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T15:22:02.937156+00:00'
+[2025-03-10T21:22:33.928+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T21:22:33.929+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T21:22:33.929+0600] {logging_mixin.py:190} INFO - Current task name:load_fact_dim_table_task state:running start_date:2025-03-10 15:22:33.752794+00:00
+[2025-03-10T21:22:33.929+0600] {logging_mixin.py:190} INFO - Dag name:E2E_kafka_producer_data_ETL_dag and current dag run status:running
+[2025-03-10T21:22:33.930+0600] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T21:22:33.930+0600] {sql.py:295} INFO - Executing: 
+    INSERT INTO dim_city(city)
+    SELECT DISTINCT city from transformed_weather_info;
+
+    INSERT INTO dim_wind_direction(wind_direction)
+    SELECT DISTINCT wind_direction FROM transformed_weather_info;
+
+    INSERT INTO dim_precipitation(precipitation)
+    SELECT DISTINCT precipitation FROM transformed_weather_info;
+
+    INSERT INTO fact_weather(id, date, city_id, wind_dir_id, precipitation_id,        temperature, humidity, pressure, wind_speed, cloud_cover)
+    SELECT DISTINCT (twi.id), twi.date, dc.city_id, dwd.wind_dir_id, dp.precipitation_id,        twi.temperature, twi.humidity, twi.pressure, twi.wind_speed, twi.cloud_cover        FROM transformed_weather_info twi        join dim_city dc on twi.city=dc.city             join dim_wind_direction dwd on twi.wind_direction=dwd.wind_direction               join dim_precipitation dp on twi.precipitation=dp.precipitation;
+    
+[2025-03-10T21:22:33.938+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-03-10T21:22:33.945+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-03-10T21:22:33.963+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO dim_city(city)
+    SELECT DISTINCT city from transformed_weather_info;
+
+    INSERT INTO dim_wind_direction(wind_direction)
+    SELECT DISTINCT wind_direction FROM transformed_weather_info;
+
+    INSERT INTO dim_precipitation(precipitation)
+    SELECT DISTINCT precipitation FROM transformed_weather_info;
+
+    INSERT INTO fact_weather(id, date, city_id, wind_dir_id, precipitation_id,        temperature, humidity, pressure, wind_speed, cloud_cover)
+    SELECT DISTINCT (twi.id), twi.date, dc.city_id, dwd.wind_dir_id, dp.precipitation_id,        twi.temperature, twi.humidity, twi.pressure, twi.wind_speed, twi.cloud_cover        FROM transformed_weather_info twi        join dim_city dc on twi.city=dc.city             join dim_wind_direction dwd on twi.wind_direction=dwd.wind_direction               join dim_precipitation dp on twi.precipitation=dp.precipitation;
+    , parameters: None
+[2025-03-10T21:22:33.967+0600] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 301, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 580, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 629, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedColumn: column "date" of relation "fact_weather" does not exist
+LINE 11:     INSERT INTO fact_weather(id, date, city_id, wind_dir_id,...
+                                          ^
+
+[2025-03-10T21:22:33.972+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-03-10T21:22:33.973+0600] {logging_mixin.py:190} INFO - Task start:2025-03-10 15:22:33.752794+00:00 end:2025-03-10 15:22:33.972516+00:00 duration:0.219722
+[2025-03-10T21:22:33.973+0600] {logging_mixin.py:190} INFO - Task:<Task(SQLExecuteQueryOperator): load_fact_dim_table_task> dag:<DAG: E2E_kafka_producer_data_ETL_dag> dagrun:<DagRun E2E_kafka_producer_data_ETL_dag @ 2025-03-10 15:22:02.937156+00:00: manual__2025-03-10T15:22:02.937156+00:00, state:running, queued_at: 2025-03-10 15:22:02.952208+00:00. externally triggered: True>
+[2025-03-10T21:22:33.974+0600] {logging_mixin.py:190} INFO - Failure caused by column "date" of relation "fact_weather" does not exist
+LINE 11:     INSERT INTO fact_weather(id, date, city_id, wind_dir_id,...
+                                          ^
+[2025-03-10T21:22:33.974+0600] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=E2E_kafka_producer_data_ETL_dag, task_id=load_fact_dim_table_task, run_id=manual__2025-03-10T15:22:02.937156+00:00, execution_date=20250310T152202, start_date=20250310T152233, end_date=20250310T152233
+[2025-03-10T21:22:33.992+0600] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T21:22:33.993+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 71 for task load_fact_dim_table_task (column "date" of relation "fact_weather" does not exist
+LINE 11:     INSERT INTO fact_weather(id, date, city_id, wind_dir_id,...
+                                          ^
+; 87086)
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 301, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 580, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 629, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedColumn: column "date" of relation "fact_weather" does not exist
+LINE 11:     INSERT INTO fact_weather(id, date, city_id, wind_dir_id,...
+                                          ^
+
+[2025-03-10T21:22:34.026+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-10T21:22:34.042+0600] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T21:22:34.043+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

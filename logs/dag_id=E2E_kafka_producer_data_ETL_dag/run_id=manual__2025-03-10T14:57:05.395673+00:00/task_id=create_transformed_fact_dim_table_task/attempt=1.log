@@ -1,0 +1,125 @@
+[2025-03-10T20:57:36.683+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T20:57:36.734+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: E2E_kafka_producer_data_ETL_dag.create_transformed_fact_dim_table_task manual__2025-03-10T14:57:05.395673+00:00 [queued]>
+[2025-03-10T20:57:36.755+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: E2E_kafka_producer_data_ETL_dag.create_transformed_fact_dim_table_task manual__2025-03-10T14:57:05.395673+00:00 [queued]>
+[2025-03-10T20:57:36.756+0600] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-10T20:57:36.791+0600] {taskinstance.py:2890} INFO - Executing <Task(SQLExecuteQueryOperator): create_transformed_fact_dim_table_task> on 2025-03-10 14:57:05.395673+00:00
+[2025-03-10T20:57:36.826+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'E2E_kafka_producer_data_ETL_dag', 'create_transformed_fact_dim_table_task', 'manual__2025-03-10T14:57:05.395673+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/E2E_ETL_pipeline.py', '--cfg-path', '/tmp/tmpca6o8__r']
+[2025-03-10T20:57:36.830+0600] {standard_task_runner.py:105} INFO - Job 56: Subtask create_transformed_fact_dim_table_task
+[2025-03-10T20:57:36.855+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=80174) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-10T20:57:36.857+0600] {standard_task_runner.py:72} INFO - Started process 80203 to run task
+[2025-03-10T20:57:36.919+0600] {task_command.py:467} INFO - Running <TaskInstance: E2E_kafka_producer_data_ETL_dag.create_transformed_fact_dim_table_task manual__2025-03-10T14:57:05.395673+00:00 [running]> on host shamim-X541UV
+[2025-03-10T20:57:37.086+0600] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='E2E_kafka_producer_data_ETL_dag' AIRFLOW_CTX_TASK_ID='create_transformed_fact_dim_table_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T14:57:05.395673+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T14:57:05.395673+00:00'
+[2025-03-10T20:57:37.089+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T20:57:37.090+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T20:57:37.091+0600] {logging_mixin.py:190} INFO - Current task name:create_transformed_fact_dim_table_task state:running start_date:2025-03-10 14:57:36.735352+00:00
+[2025-03-10T20:57:37.091+0600] {logging_mixin.py:190} INFO - Dag name:E2E_kafka_producer_data_ETL_dag and current dag run status:running
+[2025-03-10T20:57:37.092+0600] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T20:57:37.093+0600] {sql.py:295} INFO - Executing: 
+        DROP TABLE IF EXISTS transformed_weather_info CASCADE;
+        create table if not exists transformed_weather_info(
+        id INT,
+        date_time TIMESTAMP,
+        city VARCHAR(100),
+        temperature NUMERIC(10,2),
+        humidity NUMERIC(10,2),
+        pressure NUMERIC(10,2),
+        wind_speed NUMERIC(10,2),
+        wind_direction VARCHAR(100),
+        precipitation VARCHAR(100),
+        cloud_cover NUMERIC(10,2)
+        );
+
+        DROP TABLE IF EXISTS dim_city CASCADE;
+        CREATE TABLE IF NOT EXISTS dim_city(
+        city_id SERIAL PRIMARY KEY,
+        city VARCHAR(100)
+        );
+
+        DROP TABLE IF EXISTS dim_wind_direction CASCADE;
+        CREATE TABLE IF NOT EXISTS dim_wind_direction(
+        wind_dir_id SERIAL PRIMARY KEY,
+        wind_direction VARCHAR(100)
+        );
+
+        DROP TABLE IF EXISTS dim_precipitation CASCADE;
+        CREATE TABLE IF NOT EXISTS dim_precipitation(
+        precipitation_id SERIAL PRIMARY KEY,
+        preipitation VARCHAR(100)
+        );
+
+        DROP TABLE IF EXISTS fact_weather CASCADE;
+        CREATE TABLE IF NOT EXISTS fact_weather(
+        id INT,
+        date_time TIMESTAMP,
+        city_id INT REFERENCES dim_city(city_id),
+        wind_dir_id INT REFERENCES dim_wind_direction(wind_dir_id),
+        precipitation_id INT REFERENCES dim_precipitation(precipitation_id),
+        temperature NUMERIC(10,2),
+        humidity NUMERIC(10,2),
+        pressure NUMERIC(10,2),
+        wind_speed NUMERIC(10,2),
+        cloud_cover NUMERIC(10,2)
+        );
+    
+[2025-03-10T20:57:37.105+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-03-10T20:57:37.121+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-03-10T20:57:37.163+0600] {sql.py:624} INFO - Running statement: 
+        DROP TABLE IF EXISTS transformed_weather_info CASCADE;
+        create table if not exists transformed_weather_info(
+        id INT,
+        date_time TIMESTAMP,
+        city VARCHAR(100),
+        temperature NUMERIC(10,2),
+        humidity NUMERIC(10,2),
+        pressure NUMERIC(10,2),
+        wind_speed NUMERIC(10,2),
+        wind_direction VARCHAR(100),
+        precipitation VARCHAR(100),
+        cloud_cover NUMERIC(10,2)
+        );
+
+        DROP TABLE IF EXISTS dim_city CASCADE;
+        CREATE TABLE IF NOT EXISTS dim_city(
+        city_id SERIAL PRIMARY KEY,
+        city VARCHAR(100)
+        );
+
+        DROP TABLE IF EXISTS dim_wind_direction CASCADE;
+        CREATE TABLE IF NOT EXISTS dim_wind_direction(
+        wind_dir_id SERIAL PRIMARY KEY,
+        wind_direction VARCHAR(100)
+        );
+
+        DROP TABLE IF EXISTS dim_precipitation CASCADE;
+        CREATE TABLE IF NOT EXISTS dim_precipitation(
+        precipitation_id SERIAL PRIMARY KEY,
+        preipitation VARCHAR(100)
+        );
+
+        DROP TABLE IF EXISTS fact_weather CASCADE;
+        CREATE TABLE IF NOT EXISTS fact_weather(
+        id INT,
+        date_time TIMESTAMP,
+        city_id INT REFERENCES dim_city(city_id),
+        wind_dir_id INT REFERENCES dim_wind_direction(wind_dir_id),
+        precipitation_id INT REFERENCES dim_precipitation(precipitation_id),
+        temperature NUMERIC(10,2),
+        humidity NUMERIC(10,2),
+        pressure NUMERIC(10,2),
+        wind_speed NUMERIC(10,2),
+        cloud_cover NUMERIC(10,2)
+        );
+    , parameters: None
+[2025-03-10T20:57:37.218+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py:583 DeprecationWarning: Import of fetch_all_handler from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-03-10T20:57:37.225+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py:311 DeprecationWarning: Import of return_single_query_results from the 'airflow.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from 'airflow.providers.common.sql.hooks.handlers'.
+[2025-03-10T20:57:37.234+0600] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T20:57:37.235+0600] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=E2E_kafka_producer_data_ETL_dag, task_id=create_transformed_fact_dim_table_task, run_id=manual__2025-03-10T14:57:05.395673+00:00, execution_date=20250310T145705, start_date=20250310T145736, end_date=20250310T145737
+[2025-03-10T20:57:37.268+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T20:57:37.269+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T20:57:37.270+0600] {logging_mixin.py:190} INFO - Dag name:E2E_kafka_producer_data_ETL_dag queued_at:2025-03-10 14:57:05.411916+00:00
+[2025-03-10T20:57:37.270+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:SQLExecuteQueryOperator
+[2025-03-10T20:57:37.317+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T20:57:37.356+0600] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T20:57:37.359+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

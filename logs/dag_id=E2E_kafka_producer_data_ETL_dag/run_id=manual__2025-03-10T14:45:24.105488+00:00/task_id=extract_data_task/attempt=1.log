@@ -1,0 +1,183 @@
+[2025-03-10T20:45:29.773+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T20:45:29.786+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: E2E_kafka_producer_data_ETL_dag.extract_data_task manual__2025-03-10T14:45:24.105488+00:00 [queued]>
+[2025-03-10T20:45:29.796+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: E2E_kafka_producer_data_ETL_dag.extract_data_task manual__2025-03-10T14:45:24.105488+00:00 [queued]>
+[2025-03-10T20:45:29.797+0600] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-10T20:45:29.820+0600] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_data_task> on 2025-03-10 14:45:24.105488+00:00
+[2025-03-10T20:45:29.828+0600] {standard_task_runner.py:72} INFO - Started process 76404 to run task
+[2025-03-10T20:45:29.832+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'E2E_kafka_producer_data_ETL_dag', 'extract_data_task', 'manual__2025-03-10T14:45:24.105488+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/E2E_ETL_pipeline.py', '--cfg-path', '/tmp/tmpxkm9tqbc']
+[2025-03-10T20:45:29.833+0600] {standard_task_runner.py:105} INFO - Job 45: Subtask extract_data_task
+[2025-03-10T20:45:29.874+0600] {task_command.py:467} INFO - Running <TaskInstance: E2E_kafka_producer_data_ETL_dag.extract_data_task manual__2025-03-10T14:45:24.105488+00:00 [running]> on host shamim-X541UV
+[2025-03-10T20:45:30.116+0600] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='E2E_kafka_producer_data_ETL_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T14:45:24.105488+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-10T14:45:24.105488+00:00'
+[2025-03-10T20:45:30.117+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T20:45:30.118+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T20:45:30.118+0600] {logging_mixin.py:190} INFO - Current task name:extract_data_task state:running start_date:2025-03-10 14:45:29.786969+00:00
+[2025-03-10T20:45:30.119+0600] {logging_mixin.py:190} INFO - Dag name:E2E_kafka_producer_data_ETL_dag and current dag run status:running
+[2025-03-10T20:45:30.119+0600] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-10T20:45:30.126+0600] {logging_mixin.py:190} WARNING - /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py:28 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-03-10T20:45:30.135+0600] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py", line 30, in extract_data_from_kafka_producer
+    kwargs['ti'].xcom_push(key='DataFrame', value=df)
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3645, in xcom_push
+    XCom.set(
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/xcom.py", line 249, in set
+    value = cls.serialize_value(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/xcom.py", line 688, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/json.py", line 105, in encode
+    return super().encode(o)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/json.py", line 92, in default
+    return serialize(o)
+           ^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/serialization/serde.py", line 149, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2025-03-10T20:45:30.143+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-03-10T20:45:30.143+0600] {logging_mixin.py:190} INFO - Task start:2025-03-10 14:45:29.786969+00:00 end:2025-03-10 14:45:30.142821+00:00 duration:0.355852
+[2025-03-10T20:45:30.143+0600] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_data_task> dag:<DAG: E2E_kafka_producer_data_ETL_dag> dagrun:<DagRun E2E_kafka_producer_data_ETL_dag @ 2025-03-10 14:45:24.105488+00:00: manual__2025-03-10T14:45:24.105488+00:00, state:running, queued_at: 2025-03-10 14:45:24.133902+00:00. externally triggered: True>
+[2025-03-10T20:45:30.144+0600] {logging_mixin.py:190} INFO - Failure caused by No module named 'pyarrow'
+[2025-03-10T20:45:30.144+0600] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=E2E_kafka_producer_data_ETL_dag, task_id=extract_data_task, run_id=manual__2025-03-10T14:45:24.105488+00:00, execution_date=20250310T144524, start_date=20250310T144529, end_date=20250310T144530
+[2025-03-10T20:45:30.163+0600] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-10T20:45:30.164+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 45 for task extract_data_task (No module named 'pyarrow'; 76404)
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py", line 30, in extract_data_from_kafka_producer
+    kwargs['ti'].xcom_push(key='DataFrame', value=df)
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3645, in xcom_push
+    XCom.set(
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/xcom.py", line 249, in set
+    value = cls.serialize_value(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/xcom.py", line 688, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/json.py", line 105, in encode
+    return super().encode(o)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/utils/json.py", line 92, in default
+    return serialize(o)
+           ^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/serialization/serde.py", line 149, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2025-03-10T20:45:30.205+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-10T20:45:30.354+0600] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T20:45:30.372+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
