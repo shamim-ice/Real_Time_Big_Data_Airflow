@@ -1881,3 +1881,24 @@
 [2025-03-10T22:09:26.254+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:26.254+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T22:09:26.284+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:26.284+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
 [2025-03-10T22:09:26.310+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.123 seconds
+[2025-03-10T22:10:16.927+0600] {processor.py:186} INFO - Started process (PID=101400) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:10:16.933+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-03-10T22:10:16.936+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:10:16.935+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:10:16.957+0600] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:10:16.984+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:10:16.983+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:10:17.027+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:10:17.026+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T22:10:17.057+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.140 seconds
+[2025-03-10T22:11:08.409+0600] {processor.py:186} INFO - Started process (PID=101660) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:11:08.416+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-03-10T22:11:08.417+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:11:08.417+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:11:08.438+0600] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:11:08.460+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:11:08.460+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:11:08.488+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:11:08.488+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T22:11:08.519+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.123 seconds
+[2025-03-10T22:12:32.709+0600] {processor.py:186} INFO - Started process (PID=102025) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:12:32.712+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-03-10T22:12:32.714+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:12:32.713+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:12:32.734+0600] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-03-10T22:12:32.756+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:12:32.756+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:12:32.787+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:12:32.786+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-03-09 00:00:00+00:00, run_after=2025-03-10 00:00:00+00:00
+[2025-03-10T22:12:32.815+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.116 seconds

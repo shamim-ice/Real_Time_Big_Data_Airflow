@@ -1601,3 +1601,17 @@
 [2025-03-10T22:09:02.657+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:02.657+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T22:09:02.690+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:02.689+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2025-03-10 16:08:00+00:00, run_after=2025-03-10 16:09:00+00:00
 [2025-03-10T22:09:02.714+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.137 seconds
+[2025-03-10T22:10:43.966+0600] {processor.py:186} INFO - Started process (PID=101460) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-03-10T22:10:43.973+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2025-03-10T22:10:43.979+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:10:43.974+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-03-10T22:10:44.011+0600] {processor.py:925} INFO - DAG(s) 'example_branch_dop_operator_v3' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-03-10T22:10:44.044+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:10:44.044+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:10:44.108+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:10:44.108+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2025-03-10 16:09:00+00:00, run_after=2025-03-10 16:10:00+00:00
+[2025-03-10T22:10:44.155+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.206 seconds
+[2025-03-10T22:12:19.135+0600] {processor.py:186} INFO - Started process (PID=102007) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-03-10T22:12:19.141+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2025-03-10T22:12:19.145+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:12:19.144+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-03-10T22:12:19.170+0600] {processor.py:925} INFO - DAG(s) 'example_branch_dop_operator_v3' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2025-03-10T22:12:19.194+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:12:19.193+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:12:19.231+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:12:19.231+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2025-03-10 16:11:00+00:00, run_after=2025-03-10 16:12:00+00:00
+[2025-03-10T22:12:19.260+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.147 seconds
