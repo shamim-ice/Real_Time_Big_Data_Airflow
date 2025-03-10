@@ -2592,3 +2592,59 @@ airflow.exceptions.AirflowException: The key 'load_clean_data_into pg_task' has 
 [2025-03-10T22:02:11.583+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:02:11.583+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T22:02:11.616+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:02:11.615+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
 [2025-03-10T22:02:11.653+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.292 seconds
+[2025-03-10T22:03:03.886+0600] {processor.py:186} INFO - Started process (PID=99214) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:03:03.889+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:03:03.896+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:03.893+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:03:03.958+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:03:04.119+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:04.119+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:03:04.146+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:04.146+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:03:04.185+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.327 seconds
+[2025-03-10T22:03:59.357+0600] {processor.py:186} INFO - Started process (PID=99451) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:03:59.361+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:03:59.363+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:59.362+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:03:59.404+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:03:59.567+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:59.567+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:03:59.603+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:59.602+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:03:59.636+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.289 seconds
+[2025-03-10T22:04:53.537+0600] {processor.py:186} INFO - Started process (PID=99677) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:04:53.544+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:04:53.550+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:04:53.548+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:04:53.590+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:04:53.610+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:04:53.610+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:04:53.639+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:04:53.639+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:04:53.680+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.153 seconds
+[2025-03-10T22:05:40.513+0600] {processor.py:186} INFO - Started process (PID=99934) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:05:40.520+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:05:40.526+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:05:40.523+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:05:40.571+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:05:40.711+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:05:40.710+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:05:40.739+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:05:40.738+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:05:40.780+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.277 seconds
+[2025-03-10T22:06:27.725+0600] {processor.py:186} INFO - Started process (PID=100203) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:06:27.728+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:06:27.732+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:06:27.729+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:06:27.819+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:06:27.859+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:06:27.859+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:06:27.904+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:06:27.904+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:06:27.956+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.264 seconds
+[2025-03-10T22:07:22.874+0600] {processor.py:186} INFO - Started process (PID=100479) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:07:22.881+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:07:22.883+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:22.882+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:07:22.932+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:07:23.100+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:23.099+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:07:23.130+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:23.130+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:07:23.160+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.297 seconds
+[2025-03-10T22:08:16.385+0600] {processor.py:186} INFO - Started process (PID=100736) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:08:16.389+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:08:16.393+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:08:16.392+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:08:16.446+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:08:16.596+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:08:16.596+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:08:16.622+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:08:16.622+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:08:16.646+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.279 seconds
+[2025-03-10T22:09:06.491+0600] {processor.py:186} INFO - Started process (PID=100973) to work on /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:09:06.496+0600] {processor.py:914} INFO - Processing file /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py for tasks to queue
+[2025-03-10T22:09:06.501+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:06.499+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:09:06.550+0600] {processor.py:925} INFO - DAG(s) 'E2E_kafka_producer_data_ETL_dag' retrieved from /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py
+[2025-03-10T22:09:06.718+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:06.718+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:09:06.747+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:09:06.747+0600] {dag.py:4180} INFO - Setting next_dagrun for E2E_kafka_producer_data_ETL_dag to 2025-03-10 16:00:00+00:00, run_after=2025-03-11 16:00:00+00:00
+[2025-03-10T22:09:06.782+0600] {processor.py:208} INFO - Processing /home/shamim/Real_Time_Big_Data_Airflow/dags/E2E_ETL_pipeline.py took 0.323 seconds

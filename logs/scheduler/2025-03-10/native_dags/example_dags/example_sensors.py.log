@@ -1587,3 +1587,31 @@
 [2025-03-10T22:00:56.134+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:00:56.134+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T22:00:56.160+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:00:56.159+0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2025-03-10T22:00:56.192+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.154 seconds
+[2025-03-10T22:02:41.370+0600] {processor.py:186} INFO - Started process (PID=99145) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:02:41.372+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-10T22:02:41.375+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:02:41.374+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:02:41.400+0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:02:41.439+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:02:41.438+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:02:41.467+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:02:41.467+0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-10T22:02:41.503+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.155 seconds
+[2025-03-10T22:04:28.987+0600] {processor.py:186} INFO - Started process (PID=99655) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:04:28.994+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-10T22:04:28.998+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:04:28.997+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:04:29.020+0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:04:29.050+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:04:29.049+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:04:29.067+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:04:29.067+0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-10T22:04:29.104+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.127 seconds
+[2025-03-10T22:06:03.371+0600] {processor.py:186} INFO - Started process (PID=100149) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:06:03.377+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-10T22:06:03.380+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:06:03.379+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:06:03.397+0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:06:03.427+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:06:03.427+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:06:03.444+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:06:03.444+0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-10T22:06:03.485+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2025-03-10T22:07:52.429+0600] {processor.py:186} INFO - Started process (PID=100710) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:07:52.431+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-10T22:07:52.434+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:52.433+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:07:52.458+0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-10T22:07:52.499+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:52.499+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:07:52.532+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:52.532+0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-10T22:07:52.573+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.159 seconds

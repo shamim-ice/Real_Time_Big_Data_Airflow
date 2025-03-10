@@ -1622,3 +1622,31 @@
 [2025-03-10T22:01:51.911+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:01:51.911+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-10T22:01:51.930+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:01:51.930+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
 [2025-03-10T22:01:51.963+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.123 seconds
+[2025-03-10T22:03:37.686+0600] {processor.py:186} INFO - Started process (PID=99430) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:03:37.687+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-10T22:03:37.689+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:37.688+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:03:37.707+0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:03:37.737+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:37.736+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:03:37.759+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:03:37.758+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-10T22:03:37.793+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.133 seconds
+[2025-03-10T22:05:20.647+0600] {processor.py:186} INFO - Started process (PID=99915) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:05:20.663+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-10T22:05:20.668+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:05:20.667+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:05:20.693+0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:05:20.716+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:05:20.716+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:05:20.734+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:05:20.734+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-10T22:05:20.759+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.124 seconds
+[2025-03-10T22:07:01.980+0600] {processor.py:186} INFO - Started process (PID=100460) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:07:01.986+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-10T22:07:01.988+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:01.988+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:07:02.002+0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:07:02.027+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:02.027+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:07:02.047+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:07:02.047+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-10T22:07:02.086+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.123 seconds
+[2025-03-10T22:08:45.523+0600] {processor.py:186} INFO - Started process (PID=100944) to work on /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:08:45.529+0600] {processor.py:914} INFO - Processing file /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-10T22:08:45.531+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:08:45.530+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:08:45.545+0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-10T22:08:45.570+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:08:45.570+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T22:08:45.593+0600] {logging_mixin.py:190} INFO - [2025-03-10T22:08:45.593+0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-10T22:08:45.621+0600] {processor.py:208} INFO - Processing /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
